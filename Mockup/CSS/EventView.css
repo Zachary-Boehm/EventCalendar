@@ -1,0 +1,101 @@
+/*---Global Syling---*/
+html{
+    background: #1D1E2C;
+
+    /*Default Values*/
+    font-size:62.5%;
+    
+    color: #FFFDFD;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    position:relative;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #FFFDFD;
+}
+a:hover{
+    color: #BFC4C4;
+    text-decoration: underline;
+}
+h1{
+    font-size: 2.4rem;
+}
+h2{
+    font-size: 2rem;
+}
+h4{
+   font-size: 1.5rem;
+}
+/*---Class Styling---*/
+
+/*---ID styling---*/
+
+/*Nav Bar Styling*/
+#nav-bar{
+    height: 7rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    top: 0;
+    
+    background-color: #1D1E2C;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#NavIcon{
+    fill: #F15152;
+}
+#nav-title{
+    height: 100%;
+    flex: 6;
+    display: flex;
+    align-items: center;
+}
+#nav-title p{
+    padding-left: 2rem;
+}
+#Info-Tab{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#Info-Tab a{
+    flex: 1;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+/*Other*/
+#main-content{
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 80rem;
+    background-color: rgb(24, 25, 37);
+}
+
+#footer{
+    height: 5rem;
+    background-color: #1D1E2C;
+    font-size: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#footer div{
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+#footer a{
+
+    margin-left: 1rem;
+}
